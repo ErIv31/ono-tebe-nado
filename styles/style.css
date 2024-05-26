@@ -6,11 +6,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    max-width: 1340px;
 }
 
 .header__menu {
    flex: 0 0 auto;
-   width: 33.3%; 
+   width: 391.48px; 
 }
 
 .header__link {
@@ -27,14 +28,18 @@
     list-style: circle;
 }
 
-.header__link-active {
-    text-decoration: none;
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link_active {
+    text-decoration: none;    
 }
 
 .header__logo {
     flex: 0 0 auto;
     width: 148px;
-    height: 105px;
+    height: 105px;    
 }
 
 .header__logo-image {
@@ -43,13 +48,84 @@
 }
 
 .header__address {
-    padding-left: 15.5%;
+    padding-left: 230px;
 }
 
 .address {
     flex: 0 0 auto;
     width: 33.3%;
-    line-height: 135%;
+    line-height: 24.3px;
     font-style: normal;
     text-underline-position: under;
+}
+
+.cover {
+    background: url("../images/cover.jpg") center/cover; 
+    color: #fff;   
+}
+
+.cover__title {
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cover__description {
+    margin-top: 120px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cover__description-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: end;
+    margin-right: 6%;
+    word-spacing: 17.5px;
+}
+
+.overlay {
+    height: inherit;
+    padding: 165px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.aligned-text {
+    text-align: left;
+}
+
+.aligned-text_center {
+    width: 100%;
+    max-width: 1310px;
+    text-align: center;
+}
+.aligned-text_right {
+    text-align: right;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.bet-button {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;    
+    color: #fff;
+    border: 1px solid #fff;    
+    padding: 12px 32px;
 }
