@@ -138,3 +138,7 @@
     background-color: transparent;    
     color: #fff;      
 }
+
+.card {
+    position: relative;
+}
