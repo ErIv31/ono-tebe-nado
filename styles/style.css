@@ -18,8 +18,7 @@
 }
 
 .header__links-list {
-    display: flex;
-    justify-content: start;
+    display: flex;    
     align-items: center;
     gap: 33px;    
 }
